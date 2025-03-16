@@ -59,15 +59,15 @@ The project is divided into two main folders:
 ### Backend Setup
 
 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/YomnaWaleed/Railway-Ticket-booking-system.git
-   cd Railway-Ticket-booking-system/backend-v20
-  ```
+```bash
+git clone https://github.com/YomnaWaleed/Railway-Ticket-booking-system.git
+cd Railway-Ticket-booking-system/backend-v20
+```
 
 2. **Install dependencies**:
-  ```bash
-  npm install
-  ```
+```bash
+npm install
+```
 
 3. **Set up the database**:
   - Run the SQL scripts in the **DataBase** folder to create the necessary tables and stored procedures.
