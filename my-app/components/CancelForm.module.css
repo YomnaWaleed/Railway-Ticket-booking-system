@@ -1,0 +1,40 @@
+/* CancelForm.module.css */
+.cancel-form {
+  margin-bottom: 20px;
+}
+
+.cancel-form input {
+  margin-bottom: 10px;
+  background-color: offwhite; /* Change the background color of the input */
+}
+
+.cancel-form button {
+  background-color: purple;
+  color: pink;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.cancel-form input:focus,
+.cancel-form button:focus {
+  outline: none;
+}
+
+.cancel-form button:hover {
+  background-color: pink;
+  color: purple;
+}
+
+.cancel-form .form-group {
+  display: flex;
+  align-items: center;
+}
+
+.cancel-form .form-group input {
+  margin-right: 10px;
+}
+
+.cancel-form .form-group button {
+  margin-top: 10px; /* Add margin between input and button */
+}

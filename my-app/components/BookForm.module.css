@@ -1,0 +1,29 @@
+/* BookForm.module.css */
+.book-form {
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .input-container input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .submit-button {
+    background-color: purple;
+    color: pink;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: pink;
+    color: purple;
+  }
+  

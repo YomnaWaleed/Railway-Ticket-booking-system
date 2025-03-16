@@ -1,0 +1,33 @@
+/* SearchForm.module.css */
+.search-form {
+  margin-bottom: 20px;
+}
+
+.search-form input {
+  margin-bottom: 10px;
+  display: block; /* Make the input element a block element */
+}
+
+.search-form button {
+  background-color: purple;
+  color: pink;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.search-form input:focus,
+.search-form button:focus {
+  outline: none;
+}
+
+.search-form button:hover {
+  background-color: pink;
+  color: purple;
+}
+
+.search-form .result-container {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: lightpurple; /* Adjust background color as needed */
+}
